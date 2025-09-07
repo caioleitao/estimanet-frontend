@@ -55,3 +55,8 @@
   border-radius: 50%;
 }
 
+.card:hover {
+  transform: perspective(0px) translate(10px) scale(1.10);
+  transition: ease;
+}
+
